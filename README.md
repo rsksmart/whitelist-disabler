@@ -1,5 +1,7 @@
 # Whitelist Disabler tool
 
+**Disclaimer: This is a tool meant to be used only in RegTest environments**
+
 This tool disables whitelist functionality for regtest environments.
 
 ## Usage

@@ -73,7 +73,7 @@ const disablr = async (web3Host) => {
         const tx = new Tx(rawTx, { common });
         tx.sign(privateKey);
     
-        const serializedTx = web3Client.utils.toHex(tx.serialize().toString('hex'));
+        const serializedTx = web3Client.utils.toHex(tx.serialize());
     
         await web3Client.eth.sendSignedTransaction(serializedTx);
         
